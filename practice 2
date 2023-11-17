@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h2{
+        text-align: left;
+        font-size: large;
+        
+    }
+
+    table {
+        border: 1px solid grey;
+    }
+
+    td {
+        font-family: tahoma;
+        padding: 30px;
+        text-align: center;
+    }
+
+    tr:nth-child(odd) {
+        background-color: aquamarine;
+    }
+
+    tr:nth-child(even) {
+        background-color: rgb(202, 237, 186);
+    }
+</style>
+
+<body>
+    <h2>
+        تمرین دوم - سید محمد موسوی مطلق
+    </h2>
+    <table dir="rtl">
+        <tr>
+            <th style="text-align:center" colspan="4">
+                فروشگاه محصولات 
+            </th>
+        </tr>
+        <tr>
+            <td>
+                نام محصول
+            </td>
+            <td>
+                تعداد
+            </td>
+
+            <td>
+                قیمت
+            </td>
+            <td>
+                قیمت کل
+            </td>
+        </tr>
+        <tr>
+            <td>
+                ابزار 1
+            </td>
+            <td>
+                2
+            </td>
+            <td>
+                10000
+            </td>
+            <td>
+                20000
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                ابزار 2
+            </td>
+            <td>
+                3
+            </td>
+            <td>
+                20000
+            </td>
+            <td>
+                60000
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                ابزار 3
+            </td>
+            <td>
+                1
+            </td>
+            <td>
+                40000
+            </td>
+            <td>
+                40000
+            </td>
+            <tr>
+                <td>
+                    جمع کل
+                </td>
+                <td>
+                    6
+                </td>
+                <td>
+                    -
+                </td>
+                <td>
+                    120000
+                </td>
+
+        </tr>
+    </table>
+</body>
+
+</html>
